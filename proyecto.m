@@ -29,7 +29,6 @@ j(1) = discreta(alpha);
 j_values = [j_values, j(1)];
 s(1) = exponencial( lambda( j(1) ) );
 
-
 % Mientras no se llegue al tiempo final.
 while (t(n - 1) < t_final)
   % Generar valores para la iteración n
