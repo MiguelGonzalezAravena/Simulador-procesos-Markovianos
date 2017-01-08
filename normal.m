@@ -1,5 +1,5 @@
-function [ var_normal ] = va_normal(media, desv_estandar)
-%va_normal Summary of this function goes here
+function [ var_normal ] = normal(media, desv_estandar)
+%normal Summary of this function goes here
 %   Detailed explanation goes here
 num_aleatorio = rand(1000, 1);
 n = 12;
